@@ -72,7 +72,7 @@ function checkjogo(id) {
         setTimeout(() => {
             document.getElementById('potencia').play(); //audio de comemoração de vitória
         }, 2000); 
-        // setTimeout(function(){location.reload();}, 8000);
+         setTimeout(function(){location.reload();}, 8000);
         return false;
     }      
 
@@ -82,7 +82,7 @@ function checkjogo(id) {
         setTimeout(() => {
             document.getElementById('risada').play();  //audio de comemoração de "derrota"
         }, 2000); 
-        // setTimeout(function(){location.reload();}, 8000);
+         setTimeout(function(){location.reload();}, 8000);
         return false;
                     }   
                 }
@@ -95,7 +95,7 @@ function checkjogo(id) {
         setTimeout(() => {
             document.getElementById('brincadeira').play();  //audio de comemoração de empate
         }, 2000); 
-        // setTimeout(function(){location.reload();}, 8000);
+         setTimeout(function(){location.reload();}, 8000);
         return false;
                       }
 
